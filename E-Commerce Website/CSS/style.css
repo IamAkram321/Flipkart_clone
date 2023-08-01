@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Kanit:wght@200&family=Pacifico&family=Rowdies:wght@300;400;700&display=swap');
+
+:root {
+    --main-bg-color: #250c4a;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(173, 166, 166);
+}
+header {
+    background-color: var(--main-bg-color);
+    font-family: 'Inconsolata', monospace;
+}
+
+nav {
+    display: flex;
+}
+
+.container {
+    min-height: calc(100vh - 58px - 7vh);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 88px;
+    padding: 0 25px;
+}
+.logo img :hover{
+    font-weight: bolder;
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 25vw;
+    /* width: 336px; */
+    height: 32px;
+    border-radius: 7px;
+    margin: 0 60px;
+    text-align: center;
+}
+
+.search button {
+    font-family: 'Inconsolata', monospace;
+
+}
+
+.slider {
+    margin: 12px 0;
+    display: flex;
+    overflow: hidden;
+     
+}
+
+.card {
+    max-width: 91vw;
+    margin: auto;
+    overflow: hidden;
+}
+
+.card-item {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 20px;
+}
+.card-item :hover{
+    font-weight: bolder;
+}
+
+.card h2 {
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+}
+
+footer {
+    height: 7vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Inconsolata', monospace;
+}

@@ -1,0 +1,31 @@
+.flex-all-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 50px;
+    height: 36px;
+    margin: 0px -45px;
+    background-color: #250c4a;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button :hover{
+    font-weight: bolder;
+}
+
+.my-1 {
+    margin: 2px 0;
+}
+
+.my-2 {
+    margin: 20px 0;
+}
+
+.text-center {
+    text-align: center;
+}
